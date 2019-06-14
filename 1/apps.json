@@ -1,0 +1,22 @@
+{
+    "apps" : [
+        {
+            "appId" : "id1",
+            "name" : "Application 1",
+            "trial" : 30,
+            "token" : "token1"
+        },
+        {
+            "appId" : "id2",
+            "name" : "Application 2",
+            "trial" : 0,
+            "token" : "token2"
+        },
+        {
+            "appId" : "id3",
+            "name" : "Application 3",
+            "trial" : 13,
+            "token" : "token3"
+        }
+    ]
+}
