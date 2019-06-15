@@ -1,0 +1,10 @@
+{
+    "TableName": "<YOUR TABLE NAME>",
+    "IndexName": "<YOUR-INDEX-NAME>",
+    "KeyConditionExpression": "application_id = :v1",
+    "ExpressionAttributeValues": {
+        ":v1": {
+            "S": "$input.params('applicationid')"
+        }
+    }
+}
