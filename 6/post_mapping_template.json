@@ -1,0 +1,17 @@
+{ 
+    "TableName": "<YOUR TABLE NAME>",
+    "Item": {
+        "issue_id": {
+                "S": "$context.requestId"
+                },
+            "application_id": {
+                "S": "$input.path('$.applicationId')"
+                },
+            "user_name": {
+                "S": "$input.path('$.userName')"
+            },
+            "message": {
+                "S": "$input.path('$.message')"
+            }
+    }
+}
